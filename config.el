@@ -55,6 +55,7 @@
 
 (setq lsp-java-format-settings-url "/home/wexder/development/java/steller.xml")
 (setq lsp-java-format-settings-profile "Steller")
+(setq lsp-clients-kotlin-server-executable "/home/wexder/development/kotlin/kotlin-language-server/server/build/install/server/bin/kotlin-language-server")
 ;; current VSCode defaults
 (setq lsp-java-vmargs '("-XX:+UseParallelGC" "-XX:GCTimeRatio=4" "-XX:AdaptiveSizePolicyWeight=90" "-Dsun.zip.disableMemoryMapping=true" "-Xmx2G" "-Xms100m" "-javaagent:/home/wexder/development/java/lombok.jar"))
 (setq lsp-java-configuration-runtimes '[(:name "JavaSE-1.8"
@@ -71,5 +72,4 @@
 
 (setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono"))
 (setq centaur-tabs-cycle-scope 'tabs)
-(setq evil-esc-delay 0.2)
 ;;(setq scroll-margin 10)
