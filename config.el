@@ -25,7 +25,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-vibrant)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -70,6 +70,6 @@
 ;;  (global-tree-sitter-mode)
 ;;  (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
 
-(setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono"))
+;;(setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono"))
 (setq centaur-tabs-cycle-scope 'tabs)
 ;;(setq scroll-margin 10)
